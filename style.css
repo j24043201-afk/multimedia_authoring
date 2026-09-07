@@ -9,3 +9,33 @@ div{
 	width: 400px;
 	height: 400px;
 }
+
+#box1{
+	background-color: hotpink;
+}
+
+#box2{
+	background-color: lightgreen;
+}
+
+#box3{
+	background-color: lightblue;
+}
+
+@media (max-width: 600px){
+	div{
+		width: 100px;
+		height: 100px;
+	}
+
+    #box1{
+	      background-color: cyan;
+}
+
+    #box2{
+	      background-color: magenta;
+}
+
+    #box3{
+	      background-color: yellow;
+}
